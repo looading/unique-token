@@ -1,0 +1,27 @@
+{
+  "name": "uique-token",
+  "version": "1.0.0",
+  "description": "unique token",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "clean": "rm -rf dist",
+    "watch": "npm run clean && tsc -w",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0"
+  }
+}
