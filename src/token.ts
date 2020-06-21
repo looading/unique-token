@@ -14,8 +14,11 @@ class Token {
     return this.toString()
   }
 
+  /**
+   * genereate a token string
+   */
   generate() {
-    return this.current.fullAdd()
+    this.current.fullAdd()
   }
 }
 

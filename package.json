@@ -1,16 +1,22 @@
 {
-  "name": "uique-token",
+  "name": "@nannanbug/unique-token",
   "version": "1.0.0",
-  "description": "unique token",
-  "main": "index.js",
+  "description": "increament unique token",
+  "main": "dist/index.js",
   "scripts": {
     "test": "",
     "clean": "rm -rf dist",
     "watch": "npm run clean && tsc -w",
     "build": "npm run clean && tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "token",
+    "unique",
+    "readable",
+    "increament",
+    "Ssrtable"
+  ],
+  "author": "looading",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.0",
