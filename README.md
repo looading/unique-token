@@ -3,7 +3,6 @@
 Generate a increament token.
 Unique, Readable, Sortable
 
-> 相应的包可查看 
 ## usage
 
 ```typescript
@@ -35,8 +34,3 @@ const VNodeImage = {
 // }
 
 ```
-
-## 最后
-
-
-End of the battle
